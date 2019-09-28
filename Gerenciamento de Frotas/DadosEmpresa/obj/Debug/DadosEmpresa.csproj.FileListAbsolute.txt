@@ -1,0 +1,12 @@
+E:\Desktop\Controle de Frotas\DadosEmpresa\bin\Debug\DadosEmpresa.dll
+E:\Desktop\Controle de Frotas\DadosEmpresa\bin\Debug\DadosEmpresa.pdb
+E:\Desktop\Controle de Frotas\DadosEmpresa\obj\Debug\DadosEmpresa.csprojAssemblyReference.cache
+E:\Desktop\Controle de Frotas\DadosEmpresa\obj\Debug\DadosEmpresa.csproj.CoreCompileInputs.cache
+E:\Desktop\Controle de Frotas\DadosEmpresa\obj\Debug\DadosEmpresa.dll
+E:\Desktop\Controle de Frotas\DadosEmpresa\obj\Debug\DadosEmpresa.pdb
+E:\Desktop\Gerenciamento de Frotas\DadosEmpresa\bin\Debug\DadosEmpresa.dll
+E:\Desktop\Gerenciamento de Frotas\DadosEmpresa\bin\Debug\DadosEmpresa.pdb
+E:\Desktop\Gerenciamento de Frotas\DadosEmpresa\obj\Debug\DadosEmpresa.csprojAssemblyReference.cache
+E:\Desktop\Gerenciamento de Frotas\DadosEmpresa\obj\Debug\DadosEmpresa.csproj.CoreCompileInputs.cache
+E:\Desktop\Gerenciamento de Frotas\DadosEmpresa\obj\Debug\DadosEmpresa.dll
+E:\Desktop\Gerenciamento de Frotas\DadosEmpresa\obj\Debug\DadosEmpresa.pdb

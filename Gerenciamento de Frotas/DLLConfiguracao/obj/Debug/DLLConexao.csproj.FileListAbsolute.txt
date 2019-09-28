@@ -1,0 +1,12 @@
+E:\Desktop\Controle de Frotas\DLLConfiguracao\bin\Debug\DLLConfiguracao.dll
+E:\Desktop\Controle de Frotas\DLLConfiguracao\bin\Debug\DLLConfiguracao.pdb
+E:\Desktop\Controle de Frotas\DLLConfiguracao\obj\Debug\DLLConexao.csprojAssemblyReference.cache
+E:\Desktop\Controle de Frotas\DLLConfiguracao\obj\Debug\DLLConexao.csproj.CoreCompileInputs.cache
+E:\Desktop\Controle de Frotas\DLLConfiguracao\obj\Debug\DLLConfiguracao.dll
+E:\Desktop\Controle de Frotas\DLLConfiguracao\obj\Debug\DLLConfiguracao.pdb
+E:\Desktop\Gerenciamento de Frotas\DLLConfiguracao\bin\Debug\DLLConfiguracao.dll
+E:\Desktop\Gerenciamento de Frotas\DLLConfiguracao\bin\Debug\DLLConfiguracao.pdb
+E:\Desktop\Gerenciamento de Frotas\DLLConfiguracao\obj\Debug\DLLConexao.csprojAssemblyReference.cache
+E:\Desktop\Gerenciamento de Frotas\DLLConfiguracao\obj\Debug\DLLConexao.csproj.CoreCompileInputs.cache
+E:\Desktop\Gerenciamento de Frotas\DLLConfiguracao\obj\Debug\DLLConfiguracao.dll
+E:\Desktop\Gerenciamento de Frotas\DLLConfiguracao\obj\Debug\DLLConfiguracao.pdb

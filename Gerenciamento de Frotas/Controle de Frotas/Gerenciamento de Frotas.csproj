@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4BB42BF-721C-49CC-B9F0-98E8AF6A9CA1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Controle_de_Frotas</RootNamespace>
+    <AssemblyName>Controle de Frotas</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAlterarDadosDoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlterarDadosDoUsuario.Designer.cs">
+      <DependentUpon>FrmAlterarDadosDoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlterarInformacoesDoMotorista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlterarInformacoesDoMotorista.Designer.cs">
+      <DependentUpon>FrmAlterarInformacoesDoMotorista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAtualizaEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAtualizaEstoque.Designer.cs">
+      <DependentUpon>FrmAtualizaEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastrarMotorista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastrarMotorista.Designer.cs">
+      <DependentUpon>FrmCadastrarMotorista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastrarVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastrarVeiculo.Designer.cs">
+      <DependentUpon>FrmCadastrarVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastroFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastroFuncionario.Designer.cs">
+      <DependentUpon>FrmCadastroFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarMotorista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarMotorista.Designer.cs">
+      <DependentUpon>FrmConsultarMotorista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGerenciarEmpresas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGerenciarEmpresas.Designer.cs">
+      <DependentUpon>FrmGerenciarEmpresas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFazerLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFazerLogin.Designer.cs">
+      <DependentUpon>FrmFazerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGerenciarEntradaDoVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGerenciarEntradaDoVeiculo.Designer.cs">
+      <DependentUpon>FrmGerenciarEntradaDoVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGerenciarSaidaDoVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGerenciarSaidaDoVeiculo.Designer.cs">
+      <DependentUpon>FrmGerenciarSaidaDoVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaGerenciarVeiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaGerenciarVeiculos.Designer.cs">
+      <DependentUpon>FrmTelaGerenciarVeiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmManutencao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmManutencao.Designer.cs">
+      <DependentUpon>FrmManutencao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuAtendente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuAtendente.Designer.cs">
+      <DependentUpon>FrmMenuAtendente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuGaragem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuGaragem.Designer.cs">
+      <DependentUpon>FrmMenuGaragem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuGestor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuGestor.Designer.cs">
+      <DependentUpon>FrmMenuGestor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSolicitarManutencao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSolicitarManutencao.Designer.cs">
+      <DependentUpon>FrmSolicitarManutencao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSolicitarVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSolicitarVeiculo.Designer.cs">
+      <DependentUpon>FrmSolicitarVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaGerenciarEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaGerenciarEstoque.Designer.cs">
+      <DependentUpon>FrmTelaGerenciarEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTelaGerenciarMotoristas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTelaGerenciarMotoristas.Designer.cs">
+      <DependentUpon>FrmTelaGerenciarMotoristas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAlterarDadosDoUsuario.resx">
+      <DependentUpon>FrmAlterarDadosDoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlterarInformacoesDoMotorista.resx">
+      <DependentUpon>FrmAlterarInformacoesDoMotorista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAtualizaEstoque.resx">
+      <DependentUpon>FrmAtualizaEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastrarMotorista.resx">
+      <DependentUpon>FrmCadastrarMotorista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastrarVeiculo.resx">
+      <DependentUpon>FrmCadastrarVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastroFuncionario.resx">
+      <DependentUpon>FrmCadastroFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsultarMotorista.resx">
+      <DependentUpon>FrmConsultarMotorista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGerenciarEmpresas.resx">
+      <DependentUpon>FrmGerenciarEmpresas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFazerLogin.resx">
+      <DependentUpon>FrmFazerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGerenciarEntradaDoVeiculo.resx">
+      <DependentUpon>FrmGerenciarEntradaDoVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGerenciarSaidaDoVeiculo.resx">
+      <DependentUpon>FrmGerenciarSaidaDoVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmManutencao.resx">
+      <DependentUpon>FrmManutencao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuAtendente.resx">
+      <DependentUpon>FrmMenuAtendente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuGaragem.resx">
+      <DependentUpon>FrmMenuGaragem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuGestor.resx">
+      <DependentUpon>FrmMenuGestor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSolicitarManutencao.resx">
+      <DependentUpon>FrmSolicitarManutencao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSolicitarVeiculo.resx">
+      <DependentUpon>FrmSolicitarVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaGerenciarEstoque.resx">
+      <DependentUpon>FrmTelaGerenciarEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaGerenciarMotoristas.resx">
+      <DependentUpon>FrmTelaGerenciarMotoristas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTelaGerenciarVeiculos.resx">
+      <DependentUpon>FrmTelaGerenciarVeiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DadosEmpresa\DadosEmpresa.csproj">
+      <Project>{54499795-ce36-4501-af40-b6b649a626a9}</Project>
+      <Name>DadosEmpresa</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLLEspecifica\DLLNegMotorista.csproj">
+      <Project>{6bbc99f7-59b6-443f-a6c0-889e6159a1b0}</Project>
+      <Name>DLLNegMotorista</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DLLNegEmpresa\DLLNegEmpresa.csproj">
+      <Project>{631cdf5a-6009-46e1-aac1-683dd6e90749}</Project>
+      <Name>DLLNegEmpresa</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Motorista\DadosMotorista.csproj">
+      <Project>{96483133-07a9-42af-ab9d-d87dd2579bec}</Project>
+      <Name>DadosMotorista</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

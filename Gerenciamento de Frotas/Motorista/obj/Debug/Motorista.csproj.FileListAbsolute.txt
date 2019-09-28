@@ -1,0 +1,6 @@
+E:\Desktop\Controle de Frotas\Motorista\bin\Debug\Motorista.dll
+E:\Desktop\Controle de Frotas\Motorista\bin\Debug\Motorista.pdb
+E:\Desktop\Controle de Frotas\Motorista\obj\Debug\Motorista.csprojAssemblyReference.cache
+E:\Desktop\Controle de Frotas\Motorista\obj\Debug\Motorista.csproj.CoreCompileInputs.cache
+E:\Desktop\Controle de Frotas\Motorista\obj\Debug\Motorista.dll
+E:\Desktop\Controle de Frotas\Motorista\obj\Debug\Motorista.pdb
